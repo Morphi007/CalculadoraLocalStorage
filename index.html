@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadoraSTAR</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Orbitron&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="FN"></div>
+    
+    
+    <div class="container">
+        
+        <form name="calc">
+          
+            <input class="pantalla" type="text" name="text" id="pantalla">
+            <div id="mensaje">
+                
+             </div>
+         
+            
+            <table>
+                <tr>
+                    
+                    <td>
+                        <button class="btn" type="button" id="Delete">C</button>
+                        <button class="btn" type="button" id="dEL">DEL</button> 
+                        <button class="btn" type="button" id="btndi">%</button>  
+                        <button class="btn" type="button" id="btnX">x</button>       
+                    </td>
+     </tr>
+     
+     <td>
+         
+         <button class="btn" type="button" id="btn7">7</button>
+         <button class="btn" type="button" id="btn8">8</button> 
+         <button class="btn" type="button" id="btn9">9</button>
+         <button class="btn" type="button" id="btnMe">-</button>  
+         
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <button class="btn" type="button" id="btn4">4</button>
+            <button class="btn" type="button" id="btn5">5</button> 
+            <button class="btn" type="button" id="btn6">6</button>
+            <button class="btn" type="button" id="btnMax">+</button>    
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button class="btn" type="button" id="btn1" value ='1';>1</button> 
+            <button class="btn" type="button" id="btn2" value="2">2</button> 
+            <button class="btn" type="button" id="btn3" value="3">3</button>
+            <button style="height: 100px; ;" class="btn" type="button" id="btnig">=</button>
+            
+            
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button style="width: 180px; ;" class="btn" type="button" id="btnz">0</button>
+            <button class="btn" type="button" id="btnP">.</button> 
+            
+        </td>
+    </tr>
+   
+</table>
+
+</form>
+<div class="btn-result">
+    <button class="btn-local" id="eliminar">Eliminar Historial</button>
+    <button class="btn-local" id="mostrar">Mostrar resultado guardado</button>
+  <div class="btn-datos" id="datos">
+
+  </div>
+</div>
+
+<script src="script.js"></script>  
+</body>
+</html>
